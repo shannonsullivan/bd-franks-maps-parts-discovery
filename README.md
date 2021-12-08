@@ -77,11 +77,11 @@ public class PartCatalog {
 ```
 
 1. What should the return type for `calculateWordCounts(PartCatalog catalog)` be?
-   Be sure to include the generic types if needed.
+   Be sure to include the generic types if needed. Map<String, Integer>
 
 
 1. A `PartCatalog` (code included in *Code Block 1*) represents a manufacturer’s part catalog. 
-   What method exposed by the `PartCatalog` class can be used to get all the words in the catalog?
+   What method exposed by the `PartCatalog` class can be used to get all the words in the catalog? getCatalogWords()
 
    
 1. Individually, implement the `calculateWordCounts()` method in the `DevicePartDiscovery` class in the 
